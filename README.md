@@ -49,6 +49,16 @@ private fun getLottoNumber2() {
 //			if( isSame == false) {
 			if (!isSame) {
 				break
+							}
+		}
+		lotto.sort()
+		setTvNumber(lotto[0], binding.tvLotto1)
+		setTvNumber(lotto[1], binding.tvLotto2)
+		setTvNumber(lotto[2], binding.tvLotto3)
+		setTvNumber(lotto[3], binding.tvLotto4)
+		setTvNumber(lotto[4], binding.tvLotto5)
+		setTvNumber(lotto[5], binding.tvLotto6)
+	}
 ```
 
 
